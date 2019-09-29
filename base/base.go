@@ -47,7 +47,7 @@ func ValidPort(port string) error {
 	return convertPortError
 }
 
-// Send Hello
+// Check message valid or not
 func FormatMessage(message string) string {
 	if len(message) == 0 {
 		return fmt.Sprintf("<name> should not be empty." + "\n")
