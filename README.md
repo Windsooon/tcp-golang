@@ -45,13 +45,13 @@
     2019/09/29 18:14:48 Client from [::1]:51602 left..
     
 ### Requirements and Goals
-1. The client can send <name> to the server, the server will log the information from the client and return "Hello, <name>!" to the client.
-2. If the <name> is not printable or empty, the server will return error messages.
+1. The client can send `<name>` to the server, the server will log the information from the client and return "Hello, <name>!" to the client.
+2. If the `<name>` is not printable or empty, the server will return error messages.
 3. The client can leave by sending "Exit" to the server. 
 
 ### High Level System Design
 
-![img]()
+![img](https://raw.githubusercontent.com/Windsooon/tcp-golang/master/high-level.png)
 
 ### The idea behind the project
 
